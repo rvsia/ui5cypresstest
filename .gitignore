@@ -1,0 +1,17 @@
+node_modules
+dist
+coverage
+lib
+dts
+public
+component-testing
+
+tsconfig.tsbuildinfo
+.rollup.cache
+
+.idea/
+
+.vscode/settings.json
+.nyc_output
+yarn-error.log
+.DS_Store

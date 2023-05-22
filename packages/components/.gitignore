@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+lib
+build
+dts
+public
+
+tsconfig.tsbuildinfo
+.rollup.cache
+
+.idea/
+
+.vscode/settings.json

@@ -1,0 +1,28 @@
+{
+  "name": "test123",
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": "true",
+  "devDependencies": {
+    "@ui5/webcomponents": "1.13.3",
+    "@ui5/webcomponents-base": "1.13.3",
+    "@ui5/webcomponents-fiori": "1.13.3",
+    "@ui5/webcomponents-icons": "1.13.3",
+    "@ui5/webcomponents-react": "1.15.1",
+    "concurrently": "7.6.0",
+    "prettier": "2.7.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "scripts": {
+    "cy": "yarn workspace components cy",
+    "cy:run": "yarn workspace components cy:run",
+    "cypress:install": "yarn workspace components cypress:install"
+  },
+  "engines": {
+    "node": ">=18.14"
+  }
+}
