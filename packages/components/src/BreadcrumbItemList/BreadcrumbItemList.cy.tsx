@@ -427,15 +427,11 @@ describe('BreadcrumbItemList', () => {
         cy.mount(<BreadcrumbItemList noItems/>)
         cy.get('button').click()
 
-        cy.get('button').click()
-
         cy.contains('I am a happy custom message').should('exist')
     })
 
     it('test 1', () => {
         cy.mount(<BreadcrumbItemList noItems/>)
-        cy.get('button').click()
-
         cy.get('button').click()
 
         cy.contains('I am a happy custom message').should('exist')
@@ -611,8 +607,6 @@ describe('BreadcrumbItemList', () => {
 
     it('test 1', () => {
         cy.mount(<BreadcrumbItemList noItems/>)
-        cy.get('button').click()
-
         cy.get('button').click()
 
         cy.contains('I am a happy custom message').should('exist')
@@ -823,8 +817,6 @@ describe('BreadcrumbItemList', () => {
         cy.mount(<BreadcrumbItemList noItems/>)
         cy.get('button').click()
 
-        cy.get('button').click()
-
         cy.contains('I am a happy custom message').should('exist')
     })
 
@@ -882,8 +874,6 @@ describe('BreadcrumbItemList', () => {
 
     it('test 1', () => {
         cy.mount(<BreadcrumbItemList noItems/>)
-        cy.get('button').click()
-
         cy.get('button').click()
 
         cy.contains('I am a happy custom message').should('exist')
